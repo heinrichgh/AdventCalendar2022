@@ -90,7 +90,7 @@ let rec playMultipleRounds roundCount (monkeys, inspectionCount) =
     else
         playMultipleRounds (roundCount-1) (playRound 0 monkeys inspectionCount)
 
-let part1 = playMultipleRounds 20 (monkeys, [for _ in 1..4 -> 0])
+let part1 = playMultipleRounds 20 (monkeys, [for _ in 1..monkeys.Length -> 0])
             |> snd
             |> List.sortDescending
             |> List.take 2

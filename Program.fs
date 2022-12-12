@@ -31,8 +31,6 @@ open AdventCalendar2022
 // printfn $"%A{Day10.part1}"
 // printfn $"%A{Day10.part2}"
 
-let x = "  Starting items: 60, 94"
-let y = x.Substring(x.IndexOf(":"))
 printfn $"%A{Day11.part1}"
 // printfn $"%A{Day11.part2}"
 
