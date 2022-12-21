@@ -32,5 +32,8 @@ open AdventCalendar2022
 // printfn $"%A{Day10.part2}"
 
 // printfn $"%A{Day11.part1}"
-printfn $"%A{Day11.part2}"
+// printfn $"%A{Day11.part2} // <------- problem"
+
+// printfn $"%A{Day12.part1}"
+printfn $"%A{Day12P2.part2}"
 
